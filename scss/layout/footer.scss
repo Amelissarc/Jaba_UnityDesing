@@ -1,0 +1,42 @@
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position:static;
+    grid-area: footer;
+    background-color: #032E40;
+    color: #EDEDED;
+    height: 320px;
+    .grupo-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 5%;
+    }
+    .box {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .box_1 {
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .box_1 .contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto a {
+        text-decoration: none;
+        color: #EDEDED;
+    }
+    
+    .grupo-2 {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}

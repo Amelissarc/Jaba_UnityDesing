@@ -1,0 +1,95 @@
+main {
+    display: flex;
+    flex-direction: column;
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8% 10%;
+    }
+    
+    .services_title {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        padding: 10px;
+        color: #032E40;
+    }
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        color: #032E40;
+        font-size: 20px;
+    }
+    
+    .services_import {
+        text-align: center;
+        margin: 20px;
+    }
+    
+}
+
+.services_bkg {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#EDEDED ;
+    border-radius: 8px;
+    color: #032E40;
+}
+
+.services_cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:15rem;
+	max-width: 100%;
+	position: relative;
+}
+
+.img-uno{background-image: url('https://img.freepik.com/foto-gratis/grupo-hombres-negocios-ocasional-vestidos-que-discuten-ideas-oficina_7861-1634.jpg?w=1380&t=st=1668476798~exp=1668477398~hmac=dded596f9f784fa14dfb4ced2ff183292bdc5e68c7cc47f7bb36a3d3a6072070')}
+
+.img-dos{background-image:url("https://img.freepik.com/foto-gratis/conceptos-diseno-web-fondo-borroso_1134-82.jpg?w=1060&t=st=1668476552~exp=1668477152~hmac=985d118ef060f531e095ae61cba612bff63fc8d1051ff3c54dc347670b0e7c7d")}
+
+.img-tres{background-image:url("https://img.freepik.com/foto-gratis/diseno-creativo-disenador-hombre-trabajando_53876-98147.jpg?w=1060&t=st=1668476840~exp=1668477440~hmac=ba81c4226f85abda23e4e66b96346a2bd59624b238f94a82aa66ef7718f5aa3f")}
+
+
+.web_tipes {
+    padding-top: 8%;
+}
+
+.web_tipes_boxs {
+    display: flex;
+}
+
+.web_tipes_box {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    padding-right:20px;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+.web_tipes_components ul li {
+    width: 300px;
+}
+
+.ventajas ul li{
+    width: 500px;
+}

@@ -1,0 +1,22 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px;
+    justify-content: space-around;
+    .hero__img {
+        width: 400px;
+    }
+    #title {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-size: 60px;
+        color: #032E40;
+    }
+}
+
+/* Animaciones */
+
+#title.animate__animated.animate__fadeIn {
+    animation-duration: 4s;
+}

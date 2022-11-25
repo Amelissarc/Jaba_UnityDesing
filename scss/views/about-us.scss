@@ -1,0 +1,22 @@
+.abouts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-top: 80px;
+    height: auto;
+    .h3_card {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #032E40;
+    }
+    .content_desc {
+        padding-top: 15%;
+        padding-right: 5%;
+        line-height: 1.5;
+        text-align: justify;
+        font-size: 18px;
+        width: 400px;
+    }
+    
+}

@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    grid-column-gap: 10% 10% 10% 10%;;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer"
+    ;
+}

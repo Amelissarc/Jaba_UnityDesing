@@ -1,0 +1,69 @@
+.contact {
+    background-color: #032E40;
+    margin-top: 80px;
+    .izq {
+        width: 300px;
+    }
+    
+    .hero__contact {
+        display: flex;
+        margin: 0px 15%;
+    }
+    
+    .form {
+        background-color: #EDEDED;
+        border-radius: 8px;
+        margin: 0px 60px;
+    }
+    
+    .form_question {
+        display: flex;
+        flex-direction: column;
+        background-color: #CFD982;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .form_dates {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: space-around;
+        line-height: 1.6;
+        padding: 10px 40px;
+        height: 500px;
+        
+    }
+    
+    .card__description {
+        padding: 40px;
+        border-radius: 8px;
+        background-color: #EDEDED;
+        color: #032E40;
+        width: 300pxpx;
+        text-align: center;
+    }
+    
+    .iconos {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 20px 0px 20px;
+    }
+    
+    .privacy {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: normal;
+    }
+    .submit {
+        background-color: #CFD982;
+        width: 100px;
+        border-radius: 8px;
+        padding: 10px;
+        margin-left: 71%;
+    }
+    
+
+}
