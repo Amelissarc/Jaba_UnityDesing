@@ -127,9 +127,10 @@
     margin: 0px 30px 10px 30px;
 }
 
-.content_card_serv {
+.content_serv {
     display: flex;
-}
-.card_serv {
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
