@@ -93,44 +93,7 @@
     }
 }
 
-
-.card {
-    margin: 10px;
-    text-align: center;
-    font-size: 12px;
-    background-color: #EDEDED;
-    width: 300px;  
-}
-
-.cards__group {
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    align-items: baseline;
-    justify-content: space-evenly;
-} 
-
-.description input {
-    margin: 10px 30%;
-    padding: 10px 30px;
-    border: none;
-    background-color: #CFD982;
-    color: #032E40;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: all300ms;
-}
-.card-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin: 0% 10%;
-    height: 50px;
-    text-align: center;
-}
-
-
-//Cards Services
+//Cards Services --> descripción 
 .cards {
     display: flex;
     flex-direction: column;
@@ -162,4 +125,8 @@
     flex-direction: row;
     width: 100%;
     margin: 0px 30px 10px 30px;
+}
+
+.content_card_serv {
+    display: flex;
 }
