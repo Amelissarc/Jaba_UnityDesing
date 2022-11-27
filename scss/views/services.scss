@@ -73,7 +73,6 @@ main {
     flex-direction: column;
     line-height: 1.6;
     padding-right:20px;
-    align-items: center;
     justify-content: center;
 }
 
@@ -90,8 +89,38 @@ main {
 
 .web_tipes_components ul li {
     width: 300px;
+    text-align: left;
 }
 
 .ventajas ul li{
     width: 500px;
 }
+
+div.content_serv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card_serv {
+    display: flex;
+    flex-direction: column;
+    .serv{
+        text-decoration: none;
+        color: #032E40;
+        background-color: #EDEDED;
+        padding: 10px;
+    }
+    .content h2{
+        background-color: #CFD982;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+}
+

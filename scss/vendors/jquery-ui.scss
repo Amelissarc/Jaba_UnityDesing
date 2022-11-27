@@ -33,6 +33,7 @@
     header {
         display: flex;
         justify-content: space-between;
+        grid-area: header;
         height: 80px;
         font-size: 14px;
         width: 100%;
@@ -103,6 +104,7 @@
         background-clip:initial;
         border: none;
         border-radius: var(--bs-dropdown-border-radius);
+        width: 100%;
 
     }
 
@@ -159,6 +161,7 @@
     main {
         display: flex;
         flex-direction:column;
+        grid-area: main;
         padding: 0%;
         margin: 0%;
         width: 100%;
@@ -168,14 +171,14 @@
 
     footer {
         height: 700px;
+        grid-area: footer;
         width: 100%;
     }
 
-    .grupo-1 {
+    footer .grupo-1 {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        justify-content: space-between;
         padding: 20px 5%;
     }
 
@@ -209,14 +212,17 @@
 
     /* Sobre nosotros */
 
-    .abouts {
+    main.abouts {
         display: flex;
         flex-direction: column;
-        justify-content: left;
-        margin-top: 40px;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-top: 80px;
         height: auto;
-        width: 320px;
+        width: 100%;
+ 
     }
+
 
     .content_desc {
         padding-top: 0%;
@@ -246,11 +252,28 @@
     }
 
     .container__cards {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .container__cards .card-custom {
+        width: 290px;
+        margin: 15px;
+        transition: all 300ms;
     }
 
 
     /* Servicios */
+
+    main .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8% 10%;
+        width: 100%;
+    }
 
     .servicios {
         margin-top: 20px;
@@ -259,7 +282,7 @@
     .cards ul {
         padding: 0%;
     }
-    
+
     .cards ul li {
         list-style: none;
         color: #6F6F6F;
@@ -288,6 +311,20 @@
         margin: 0px 30px 10px 30px;
     }
 
+    .card_serv .serv {
+        text-decoration: none;
+        color: #032E40;
+        background-color: #EDEDED;
+        padding: 10px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0px;
+    }
+
     .h4 {
         font-size: 18px;
     }
@@ -309,9 +346,10 @@
     .web_tipes_boxs {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
-    .ventajas ul li{
+    .ventajas ul li {
         width: 100%;
     }
 
@@ -346,8 +384,8 @@
     }
     /* Contacto */
 
-    .contact {
-        margin: 0%;
+    main.contact {
+        margin-top: 0%;
         padding: 40px 10px;
         
     }
@@ -358,8 +396,12 @@
         justify-content: center;
         justify-items: center;
         align-items: center;
-        margin: 0% 10px;
-        padding: 10px;
+        margin: 10px;
+    }
+
+    .contact .hero__contact {
+        display: flex;
+        margin: none;
     }
 
     .izq {
@@ -372,14 +414,20 @@
         background-color: #EDEDED;
         border-radius: 8px;
         margin: 20px 5px;
-        width: 100%;
+        width: 300px;
     }
 
     .form_dates {
-        padding: 10px;
+        padding: 5px;
         height: 500px;
         
     }   
+
+    div.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px 20px 20px;
+}
 
     .submit {
         background-color: #CFD982;
