@@ -12,11 +12,11 @@ main {
         font-family: 'Nunito', sans-serif;
         font-weight: 400;
         padding: 10px;
-        color: #032E40;
+        color: $primary_color;
     }
     h4 {
         font-family: 'Roboto', sans-serif;
-        color: #032E40;
+        color:$primary_color;
         font-size: 20px;
     }
     
@@ -34,7 +34,7 @@ main {
     align-items:center;
     background-color:#EDEDED ;
     border-radius: 8px;
-    color: #032E40;
+    color: $primary_color;
 }
 
 .services_cards {

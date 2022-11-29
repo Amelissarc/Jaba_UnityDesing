@@ -79,7 +79,7 @@
         justify-content: center;
         text-align: center;
         grid-area: footer;
-        background-color: #032E40;
+        background-color: $primary_color;
         color: #EDEDED;
         height: 800px;
         
@@ -217,7 +217,7 @@
     main.contact {
         display: flex;
         flex-direction: column;
-        background-color: #032E40;
+        background-color: $primary_color;
         margin: 0%;
 
         .hero__contact {
@@ -234,7 +234,7 @@
         }
 
         .content__subtitle {
-            color: #032E40;
+            color: $primary_color;
         }
 
         .iconos {

@@ -5,7 +5,7 @@ footer {
     flex-direction: column;
     position:static;
     grid-area: footer;
-    background-color: #032E40;
+    background-color: $primary_color;
     color: #EDEDED;
     height: 320px;
     .grupo-1 {
