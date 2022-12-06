@@ -481,14 +481,16 @@ footer {
   align-items: center;
   padding: 80px;
   justify-content: space-around;
-  height: 500px; }
+  height: 500px;
+  text-align: center; }
   .hero .hero__img {
     width: 400px; }
   .hero #title {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 60px;
-    color: #032E40; }
+    color: #032E40;
+    text-align: center; }
 
 /* Animaciones */
 #title.animate__animated.animate__fadeIn {
