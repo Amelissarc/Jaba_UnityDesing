@@ -496,8 +496,7 @@ footer {
 
 .ball {
   position: absolute;
-  border-radius: 100%;
-  opacity: 0.7; }
+  border-radius: 100%; }
 
 .projects {
   padding-top: 10px; }
