@@ -33,7 +33,7 @@ p {
     margin: 15px;
     transition: all 300ms; }
   .container__cards .card:hover {
-    width: 350px; }
+    width: 360px; }
   .container__cards .cover {
     width: 100%;
     height: 250px;

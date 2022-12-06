@@ -5,13 +5,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;  
     .card-custom {
-        width: 350px;
+        width: 360px;
         margin: 15px;
         transition: all 300ms;
     } 
     
     .card:hover {
-        width: 350px;
+        width: 360px;
     }
     
     .cover {
@@ -29,8 +29,7 @@
         top: 40px;
         z-index: 1;
         transition: all 400ms;
-       
-}
+    }
     
     &:hover .cover img {
         top: 0px;
