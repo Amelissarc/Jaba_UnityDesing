@@ -4,7 +4,7 @@
     align-items: center;
     padding: 80px;
     justify-content: space-around;
-    height: 600px;
+    height: 500px;
     .hero__img {
         width: 400px;
     }
@@ -21,3 +21,10 @@
 #title.animate__animated.animate__fadeIn {
     animation-duration: 4s;
 }
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+
