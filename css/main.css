@@ -475,9 +475,6 @@ footer {
     padding: 10px;
     margin-left: 71%; }
 
-main {
-  overflow-x: hidden; }
-
 .hero {
   display: flex;
   flex-direction: row;
