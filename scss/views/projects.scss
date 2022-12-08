@@ -2,16 +2,14 @@
     padding-top: 10px;
     
 }
-.content_cards {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding: 0px;
-    margin: 0px;
-    padding-bottom: 20px;
+
+ul {
+    .nav-tab {
+        padding-bottom: 20px;
+    }
+
 }
+
 
 .col img {
     width: 300px;
@@ -22,6 +20,9 @@ li.op {
     width: 200px;
     position: relative;  
     display: inline-block; 
+    padding: 0px 15px;
+    list-style: none;
+    text-decoration: none;
 } 
 
 
@@ -43,15 +44,28 @@ ul.opciones li.op {
 ul.opciones ul.opciones {
     position: absolute;
     display: none;
-    text-align: left; 
+    text-align: left;   
 }
 ul.opciones li:hover {
     background-color:#CFD982;
     border-radius: 8px;
+    
 }
 
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #032e40 var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
 
 .row {
     margin-right: 10px;
 }
  
+.tab-content {
+    padding-top:20px;
+}
