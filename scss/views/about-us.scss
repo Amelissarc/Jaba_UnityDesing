@@ -1,9 +1,9 @@
 .abouts {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin-left: 5%;
-    margin-top: 80px;
+    margin-top: 20px;
     height: auto;
     .h3_card {
         font-family: 'Roboto', sans-serif;
@@ -11,12 +11,12 @@
         color: $primary_color;
     }
     .content_desc {
-        padding-top: 15%;
+        padding-top: 10px;
         padding-right: 5%;
         line-height: 1.5;
         text-align: justify;
         font-size: 18px;
-        width:400px;
+        width:100%;
 
     }
     

@@ -28,12 +28,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; }
-  .container__cards .card-custom {
-    width: 360px;
-    margin: 15px;
-    transition: all 300ms; }
-  .container__cards .card:hover {
-    width: 360px; }
   .container__cards .cover {
     width: 100%;
     height: 250px;
@@ -47,8 +41,6 @@ p {
     top: 40px;
     z-index: 1;
     transition: all 400ms; }
-  .container__cards:hover .cover img {
-    top: 0px; }
   .container__cards .img__back {
     width: 100%;
     height: 200px;
@@ -61,6 +53,8 @@ p {
   .container__cards:nth-of-type(1) .img__back {
     background-image: url(../assets/img/bg3.jpg); }
   .container__cards:nth-of-type(2) .img__back {
+    background-image: url(../assets/img/bg3.jpg); }
+  .container__cards:nth-of-type(3) .img__back {
     background-image: url(../assets/img/bg3.jpg); }
   .container__cards .img__back {
     bottom: -30px; }
@@ -83,10 +77,19 @@ p {
     cursor: pointer;
     border-radius: 8px;
     transition: all 300ms; }
-  .container__cards:hover .description {
-    padding: 30px; }
   .container__cards .description input:hover {
     background: #bdc773; }
+
+.card-custom {
+  width: 360px;
+  margin: 15px;
+  transition: all 300ms; }
+  .card-custom:hover .description {
+    padding: 30px; }
+  .card-custom .card:hover {
+    width: 360px; }
+  .card-custom:hover .cover img {
+    top: 0px; }
 
 .cards {
   display: flex;
@@ -407,22 +410,22 @@ footer {
 
 .abouts {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   margin-left: 5%;
-  margin-top: 80px;
+  margin-top: 20px;
   height: auto; }
   .abouts .h3_card {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #032E40; }
   .abouts .content_desc {
-    padding-top: 15%;
+    padding-top: 10px;
     padding-right: 5%;
     line-height: 1.5;
     text-align: justify;
     font-size: 18px;
-    width: 400px; }
+    width: 100%; }
 
 .contact {
   background-color: #032E40;
@@ -553,7 +556,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 8% 10%; }
+    padding: 80px 10%; }
   main .services_title {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;

@@ -77,60 +77,124 @@
 <!-- Contenido -->
 <main class="proyect">
     <section >
-      <div class="content_cards">
-        <ul class="opciones">
-          <li class="op">Todo</li>
-          <li class="op">Diseño web</li>
-          <li class="op">Diseño corporativo</li>
-          <li class="op">Diseño gráfico</li>
-        </ul>
-      </div>
 
-      <div class="container text-center">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-          <div class="col">
-            <img src="https://img.freepik.com/foto-gratis/estatua-griega-medios-remezclados-exposicion-doble-color_53876-126822.jpg?w=1060&t=st=1668560288~exp=1668560888~hmac=793e83c6b6e066619bdd9d5e7a52c4f937ef8f64f9b64889d45baf08b2c23435" alt="img">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/psd-gratis/poster-pegado-maqueta-fondo-azulejo-portugues-azul_125540-2182.jpg?w=1060&t=st=1668560209~exp=1668560809~hmac=bd007f9f4b2b6406db03942a9f739e639d1b028af5251ee7c272fe749a5c4e4d" alt="img">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/psd-gratis/plantilla-pagina-destino-barra-batidos_23-2148644943.jpg?w=1380&t=st=1668560342~exp=1668560942~hmac=ade2691891876ea11ca1e44d7e843b03396cade7cb7113182a0299a742d804c7" alt="">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/vector-gratis/conjunto-logotipos_53876-120502.jpg?w=1060&t=st=1668560372~exp=1668560972~hmac=85d45becb99afa70280d8b6180542ed0cc5cb9e8efa5bd1d37f22763b2f15123" alt="img">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="todo-tab" data-bs-toggle="tab" data-bs-target="#todo-tab-pane" type="button" role="tab" aria-controls="todo-tab-pane" aria-selected="true">Todo</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="web-tab" data-bs-toggle="tab" data-bs-target="#web-tab-pane" type="button" role="tab" aria-controls="web-tab-pane" aria-selected="false">Diseño web</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="corporativo-tab" data-bs-toggle="tab" data-bs-target="#corporativo-tab-pane" type="button" role="tab" aria-controls="corporativo-tab-pane" aria-selected="false">Diseño corparativo</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="diseño-tab" data-bs-toggle="tab" data-bs-target="#diseño-tab-pane" type="button" role="tab" aria-controls="diseño-tab-pane" aria-selected="false">Diseño gráfico</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="todo-tab-pane" role="tabpanel" aria-labelledby="todo-tab" tabindex="0">
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/foto-gratis/estatua-griega-medios-remezclados-exposicion-doble-color_53876-126822.jpg?w=1060&t=st=1668560288~exp=1668560888~hmac=793e83c6b6e066619bdd9d5e7a52c4f937ef8f64f9b64889d45baf08b2c23435" alt="diseño" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/psd-gratis/poster-pegado-maqueta-fondo-azulejo-portugues-azul_125540-2182.jpg?w=1060&t=st=1668560209~exp=1668560809~hmac=bd007f9f4b2b6406db03942a9f739e639d1b028af5251ee7c272fe749a5c4e4d" alt="diseño" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/psd-gratis/plantilla-pagina-destino-barra-batidos_23-2148644943.jpg?w=1380&t=st=1668560342~exp=1668560942~hmac=ade2691891876ea11ca1e44d7e843b03396cade7cb7113182a0299a742d804c7" alt="web" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/vector-gratis/conjunto-logotipos_53876-120502.jpg?w=1060&t=st=1668560372~exp=1668560972~hmac=85d45becb99afa70280d8b6180542ed0cc5cb9e8efa5bd1d37f22763b2f15123" alt="diseño" img-fluid  h-auto>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/psd-gratis/maqueta-logotipo-tipografico_1389-1230.jpg?w=1060&t=st=1668560395~exp=1668560995~hmac=adec39f6bebbc85e4c8638d5c47601ecf7b4face4933ec0c52139851c922b1ba" alt="corporativo" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/psd-gratis/maqueta-papeleria-marca-identidad_439185-293.jpg?w=996&t=st=1668560533~exp=1668561133~hmac=3f078a1ed135dcfa5700df3f659f964fb3af160dc8e68169fb07e592a674e234" alt="corporativo" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/psd-gratis/mockup-papeleria_47987-5993.jpg?w=996&t=st=1668560560~exp=1668561160~hmac=9ef51194421d81a9836d0b07f7c49729a28cd1b23b130a18df38f4dba54d6fc6" alt="corporativo" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/psd-gratis/maqueta-taza-cafe-ceramica_439185-1837.jpg?w=996&t=st=1668560648~exp=1668561248~hmac=3d98f588222ee297d239b36f4cd4c21297c0ed4eb9b0fa0604b79861cc072ee5" alt="diseño" img-fluid  h-auto>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/vector-gratis/plantilla-editable-vector-efecto-texto-textura-hoja-oro_53876-126320.jpg?w=1060&t=st=1668560751~exp=1668561351~hmac=616f7ec46af2c65cfdb9d603cb8de0664de6a468696fd27856ba09684cb00c44" alt="diseño" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/vector-gratis/viaje-pagina-destino-foto_23-2148378328.jpg?w=1060&t=st=1668560822~exp=1668561422~hmac=173dc9d014e70d8b585b261c48724b5829c73ce6647606a98d82d5680b8c5b52" alt="web" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/vector-gratis/plantilla-pagina-destino-bistro-sushi_79603-1103.jpg?w=1060&t=st=1668560859~exp=1668561459~hmac=2f096f5a6618f15950d29b3f6383018e7918112b4ac0ac7953d5f0e3fa00701d" alt="web" img-fluid  h-auto>
+              </div>
+              <div class="col" img-fluid  h-auto>
+                <img src="https://img.freepik.com/vector-gratis/coleccion-elementos-degradados-ui-ux_23-2149077910.jpg?w=1060&t=st=1668560891~exp=1668561491~hmac=d1e7e3e3b37059907c5566d5f1e136c7b98c0a849a5e165ffbebae9283cde705" alt="web" img-fluid  h-auto>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-          <div class="col">
-            <img src="https://img.freepik.com/psd-gratis/maqueta-logotipo-tipografico_1389-1230.jpg?w=1060&t=st=1668560395~exp=1668560995~hmac=adec39f6bebbc85e4c8638d5c47601ecf7b4face4933ec0c52139851c922b1ba" alt="img">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/psd-gratis/maqueta-papeleria-marca-identidad_439185-293.jpg?w=996&t=st=1668560533~exp=1668561133~hmac=3f078a1ed135dcfa5700df3f659f964fb3af160dc8e68169fb07e592a674e234" alt="img">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/psd-gratis/mockup-papeleria_47987-5993.jpg?w=996&t=st=1668560560~exp=1668561160~hmac=9ef51194421d81a9836d0b07f7c49729a28cd1b23b130a18df38f4dba54d6fc6" alt="img">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/psd-gratis/maqueta-taza-cafe-ceramica_439185-1837.jpg?w=996&t=st=1668560648~exp=1668561248~hmac=3d98f588222ee297d239b36f4cd4c21297c0ed4eb9b0fa0604b79861cc072ee5" alt="img">
-          </div>
+
+        <div class="tab-pane fade" id="web-tab-pane" role="tabpanel" aria-labelledby="web-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <img src="https://img.freepik.com/psd-gratis/plantilla-pagina-destino-barra-batidos_23-2148644943.jpg?w=1380&t=st=1668560342~exp=1668560942~hmac=ade2691891876ea11ca1e44d7e843b03396cade7cb7113182a0299a742d804c7" alt="web" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/vector-gratis/viaje-pagina-destino-foto_23-2148378328.jpg?w=1060&t=st=1668560822~exp=1668561422~hmac=173dc9d014e70d8b585b261c48724b5829c73ce6647606a98d82d5680b8c5b52" alt="web" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/vector-gratis/plantilla-pagina-destino-bistro-sushi_79603-1103.jpg?w=1060&t=st=1668560859~exp=1668561459~hmac=2f096f5a6618f15950d29b3f6383018e7918112b4ac0ac7953d5f0e3fa00701d" alt="web" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/vector-gratis/coleccion-elementos-degradados-ui-ux_23-2149077910.jpg?w=1060&t=st=1668560891~exp=1668561491~hmac=d1e7e3e3b37059907c5566d5f1e136c7b98c0a849a5e165ffbebae9283cde705" alt="web" img-fluid  h-auto>
+            </div>
+          
         </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-          <div class="col">
-            <img src="https://img.freepik.com/vector-gratis/plantilla-editable-vector-efecto-texto-textura-hoja-oro_53876-126320.jpg?w=1060&t=st=1668560751~exp=1668561351~hmac=616f7ec46af2c65cfdb9d603cb8de0664de6a468696fd27856ba09684cb00c44" alt="img">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/vector-gratis/viaje-pagina-destino-foto_23-2148378328.jpg?w=1060&t=st=1668560822~exp=1668561422~hmac=173dc9d014e70d8b585b261c48724b5829c73ce6647606a98d82d5680b8c5b52" alt="img">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/vector-gratis/plantilla-pagina-destino-bistro-sushi_79603-1103.jpg?w=1060&t=st=1668560859~exp=1668561459~hmac=2f096f5a6618f15950d29b3f6383018e7918112b4ac0ac7953d5f0e3fa00701d" alt="">
-          </div>
-          <div class="col">
-            <img src="https://img.freepik.com/vector-gratis/coleccion-elementos-degradados-ui-ux_23-2149077910.jpg?w=1060&t=st=1668560891~exp=1668561491~hmac=d1e7e3e3b37059907c5566d5f1e136c7b98c0a849a5e165ffbebae9283cde705" alt="img">
-          </div>
         </div>
-      </div>
-        
+
+        <div class="tab-pane fade" id="corporativo-tab-pane" role="tabpanel" aria-labelledby="corporativo-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <img src="https://img.freepik.com/psd-gratis/maqueta-logotipo-tipografico_1389-1230.jpg?w=1060&t=st=1668560395~exp=1668560995~hmac=adec39f6bebbc85e4c8638d5c47601ecf7b4face4933ec0c52139851c922b1ba" alt="corporativo" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/psd-gratis/maqueta-papeleria-marca-identidad_439185-293.jpg?w=996&t=st=1668560533~exp=1668561133~hmac=3f078a1ed135dcfa5700df3f659f964fb3af160dc8e68169fb07e592a674e234" alt="corporativo" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/psd-gratis/mockup-papeleria_47987-5993.jpg?w=996&t=st=1668560560~exp=1668561160~hmac=9ef51194421d81a9836d0b07f7c49729a28cd1b23b130a18df38f4dba54d6fc6" alt="corporativo" img-fluid  h-auto>
+            </div>
+
+          </div>
+          
+
+        </div>
+
+        <div class="tab-pane fade" id="diseño-tab-pane" role="tabpanel" aria-labelledby="diseño-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <img src="https://img.freepik.com/foto-gratis/estatua-griega-medios-remezclados-exposicion-doble-color_53876-126822.jpg?w=1060&t=st=1668560288~exp=1668560888~hmac=793e83c6b6e066619bdd9d5e7a52c4f937ef8f64f9b64889d45baf08b2c23435" alt="diseño" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/psd-gratis/poster-pegado-maqueta-fondo-azulejo-portugues-azul_125540-2182.jpg?w=1060&t=st=1668560209~exp=1668560809~hmac=bd007f9f4b2b6406db03942a9f739e639d1b028af5251ee7c272fe749a5c4e4d" alt="diseño" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/vector-gratis/conjunto-logotipos_53876-120502.jpg?w=1060&t=st=1668560372~exp=1668560972~hmac=85d45becb99afa70280d8b6180542ed0cc5cb9e8efa5bd1d37f22763b2f15123" alt="diseño" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/psd-gratis/maqueta-taza-cafe-ceramica_439185-1837.jpg?w=996&t=st=1668560648~exp=1668561248~hmac=3d98f588222ee297d239b36f4cd4c21297c0ed4eb9b0fa0604b79861cc072ee5" alt="diseño" img-fluid  h-auto>
+            </div>
+            <div class="col">
+              <img src="https://img.freepik.com/vector-gratis/plantilla-editable-vector-efecto-texto-textura-hoja-oro_53876-126320.jpg?w=1060&t=st=1668560751~exp=1668561351~hmac=616f7ec46af2c65cfdb9d603cb8de0664de6a468696fd27856ba09684cb00c44" alt="diseño" img-fluid  h-auto>
+            </div>
+          </div> 
+        </div>
+      </div>     
     </section> 
 
 </main>   

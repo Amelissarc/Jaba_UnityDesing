@@ -4,15 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;  
-    .card-custom {
-        width: 360px;
-        margin: 15px;
-        transition: all 300ms;
-    } 
-    
-    .card:hover {
-        width: 360px;
-    }
     
     .cover {
         width: 100%;
@@ -31,9 +22,7 @@
         transition: all 400ms;
     }
     
-    &:hover .cover img {
-        top: 0px;
-    }
+   
     
     .img__back {
         width: 100%;
@@ -51,6 +40,10 @@
     }
 
     &:nth-of-type(2) .img__back {
+        background-image: url(../assets/img/bg3.jpg);
+    }
+
+    &:nth-of-type(3) .img__back {
         background-image: url(../assets/img/bg3.jpg);
     }
     
@@ -83,14 +76,28 @@
         transition: all 300ms;
 }
 
-    &:hover .description{
-        padding: 30px;
-    }
+   
     
    .description input:hover {
         background: #bdc773;
     }
 }
+
+.card-custom {
+    width: 360px;
+    margin: 15px;
+    transition: all 300ms;
+    &:hover .description{
+        padding: 30px;
+    }
+    .card:hover {
+        width: 360px;
+    }
+    &:hover .cover img {
+        top: 0px;
+    }
+    
+} 
 
 //Cards Services --> descripción 
 .cards {
