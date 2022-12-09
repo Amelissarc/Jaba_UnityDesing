@@ -434,9 +434,12 @@ footer {
     padding-top: 10px;
     padding-right: 5%;
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     width: 100%; }
+
+.animate__animated .animate__fadeInRight {
+  animation-duration: 1s; }
 
 main.cont {
   margin: 0%;
@@ -455,7 +458,6 @@ main.cont {
   padding-bottom: 0%; }
 
 .contact .form {
-  z-index: 1000;
   display: table-cell;
   position: relative;
   height: 100%; }
@@ -464,16 +466,23 @@ main.cont {
   display: flex;
   flex-direction: column; }
 
+.content__subtitle {
+  margin-top: 20px; }
+
 .privacy {
   font-family: 'Roboto', sans-serif;
   font-size: 14px; }
 
 .submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
-  margin-left: 85%;
   background-color: #CFD982;
   width: 100px;
-  border-radius: 8px; }
+  border-radius: 8px;
+  margin-left: 40%;
+  height: 40px; }
 
 .hero {
   display: flex;

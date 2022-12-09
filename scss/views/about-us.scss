@@ -14,10 +14,14 @@
         padding-top: 10px;
         padding-right: 5%;
         line-height: 1.5;
-        text-align: justify;
+        text-align: center;
         font-size: 18px;
         width:100%;
 
     }
     
+}
+
+.animate__animated  .animate__fadeInRight {
+    animation-duration: 1s;
 }

@@ -17,7 +17,6 @@ main.cont {
 }
 
 .contact .form {
-    z-index: 1000;
     display: table-cell;
     position: relative;
     height: 100%;
@@ -31,14 +30,22 @@ main.cont {
     }
 }
 
+.content__subtitle {
+    margin-top:20px;
+}
+
 .privacy {
     font-family: 'Roboto', sans-serif;
     font-size:14px;
 }
 .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    margin-left: 85%;
     background-color: $secondary_color;
     width: 100px;
     border-radius: 8px;
+    margin-left: 40%;
+    height: 40px;
 }
