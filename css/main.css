@@ -259,7 +259,8 @@ footer {
     display: grid;
     grid-template-areas: "header header" "main main" "footer footer";
     grid-template-columns: 50% 50%;
-    grid-template-rows: 80px auto 800px; }
+    grid-template-rows: 80px auto 800px;
+    overflow-x: hidden; }
     body p {
       font-size: 16px; }
     body h2 {
@@ -340,24 +341,24 @@ footer {
     animation-duration: 4s;
     font-size: 40px; }
   main.abouts {
+    margin: 0%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 5%;
-    margin-top: 20px;
     height: auto; }
     main.abouts .abouts_info {
       width: 100%; }
   section.abouts_info .content_desc {
-    padding-top: 10%;
-    padding-right: 5%;
+    padding: 0%;
     line-height: 1.5;
     text-align: justify;
     font-size: 16px;
-    width: 310px;
+    width: 100%;
     margin: 0; }
   main.servicios {
-    padding: 15% 10%; }
+    padding: 5%;
+    text-align: justify; }
     main.servicios .services {
       display: flex;
       flex-direction: column;
@@ -389,35 +390,47 @@ footer {
       width: 100%;
       margin: 0px 5px 5px 5px; }
     main.servicios .cards ul li:hover {
-      width: 280px; }
+      width: 100%; }
     main.servicios .ventajas ul li {
-      width: 220px;
+      width: 100%;
       font-size: 16px; }
-  main.contact {
+  main.cont {
+    padding: 0% 5%;
+    margin: 0%; }
+  .form .form_dates {
     display: flex;
     flex-direction: column;
-    background-color: #032E40;
-    margin: 0%; }
-    main.contact .hero__contact {
-      display: flex;
-      flex-direction: column;
-      margin: 5%;
-      justify-content: center;
-      align-items: center; }
-    main.contact h3 {
-      font-size: 20px;
-      color: #EDEDED; }
-    main.contact .content__subtitle {
-      color: #032E40; }
-    main.contact .iconos {
-      display: flex;
-      justify-content: space-evenly;
-      padding: 20px; }
-  .form {
-    background-color: #EDEDED;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 320px;
+    padding: 5%; }
+  section.contact {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    padding-bottom: 5%; }
+  .contact .form {
+    display: flex;
+    position: relative;
+    height: auto; }
+  .form_dates {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #EDEDED; }
+  .privacy {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; }
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #CFD982;
+    width: 100%;
     border-radius: 8px;
-    margin: 0px 10px;
-    width: 300px; } }
+    margin: 20px;
+    height: 40px; } }
 
 .abouts {
   display: flex;
