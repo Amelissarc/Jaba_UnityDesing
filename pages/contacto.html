@@ -81,83 +81,50 @@
 </header>
 
 <!-- Contenido -->
-<main class="contact">
-    <section class="hero__contact">
-
-        <div class="izq">
-            <div id="google-maps">
-                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
-                <script>(function () {
-                var setting = {"height":300,"width":500,"zoom":15, "queryString":"Work Café /Banco Santander, Avenida Santa Fe, C1060ABP, Buenos Aires, Argentina","place_id":"ChIJJwhTmafLvJURte_EOdiYSew","satellite":false,"centerCoord":[-34.59591531095338,-58.39060810000002],"cid":"0xec4998d839c4efb5","lang":"es","cityUrl":"/argentina/buenos-aires","cityAnchorText":"Mapa de Ciudad Autónoma de Buenos Aires, Provincia de Buenos Aires, Argentina","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"823493"};
-                var d = document;
-                var s = d.createElement('script');
-                s.src = 'https://1map.com/js/script-for-user.js?embed_id=823493';
-                s.async = true;
-                s.onload = function (e) {
-                  window.OneMap.initMap(setting)
-                };
-                var to = d.getElementsByTagName('script')[0];
-                to.parentNode.insertBefore(s, to);
-                })();</script>
-                <a href="https://1map.com/es/map-embed" class="maps">1 Map</a>
-            </div> <br>
-
-            <h3 class="card_title">Contactanos</h3> <br>
-            <div class="card__description">
-                <p class="horarios">El horario de oficina es de 9:00 am a 17:00 pm de Lunes a Viernes. <br> <br> Estamos ubicados en Recoleta/Capital federal.</p>
-                    <!-- the button -->     
-            </div>
-            <div class="iconos">  
-                <a href=" https://www.instagram.com/jaba_unitydesing/" rel="noopener" target="_blank">
-                    <img src="../assets/img/instagram-verdetrabajo.png" alt="instagram" height="50">
-                </a>
-                 
-                <a href="https://www.behance.net/jaimeblanco6" rel="noopener" target="_blank">
-                    <img src="../assets/img/behands-verderedes.png" alt="behance" height="50">
-                </a>
-                <a href="https://github.com/Amelissarc" rel="noopener" target="_blank">
-                    <img src="../assets/img/github-verderedes.png" alt="github" height="50">
-                </a>
-            </div>
+<main class="cont">
+    <section class="contact">
+      <div class="form">
+        <div class="form_question">
+          <h3 class="content__subtitle">Contacto</h3>
         </div>
-        
-        <div class="form">
-            <div class="form_question">
-                <h3 class="content__subtitle">¿Tienes alguna duda?, por favor, preguntá a continuación</h3>
-            </div>
+      <div class="form_dates">
+        <label for="nombre_apellido">Nombre</label>
+        <input type="text" name="full-name" placeholder="Nombre apellido">
+    
+        <label for="email">Correo electrónico   </label>
+        <input type="email" name="email" placeholder="E-mail">
+    
+        <label for="telefono">Teléfono</label>
+        <input type="tel" name="number" placeholder="Númercelular">
+    
+        <label for="mensaje">Mensaje</label>
+        <textarea name="comment" cols="50" rows="4placeholder="Escribe aquí tu comentario"></textarea>
 
-            <div class="form_dates">
-                <label for="nombre_apellido">Nombre</label>
-                <input type="text" name="full-name" placeholder="Nombre y apellido">
-    
-                <label for="email">Correo electrónico   </label>
-                <input type="email" name="email" placeholder="E-mail">
-    
-                <label for="telefono">Teléfono</label>
-                <input type="tel" name="number" placeholder="Número celular">
-    
-                <label for="mensaje">Mensaje</label>
-                <textarea name="comment" cols="50" rows="4" placeholder="Escribe aquí tu comentario"></textarea>
-
-                <h3 class="content__subtitle">Privacidad</h3>
-                <p class="privacy">Al utilizar este formulario, usted acepta el almacenamiento y manejo de sus datos por parte de este sitio web. Lea nuestra <span> política de privacidad</span> para obtener más información sobre cómo manejamos sus datos.</p>
+        <h3 class="content__subtitle">Privacidad</h3>
+        <p class="privacy">Al utilizar este formulario, usted acepta el almacenamiento y manejo de sus datos por parte de este sitio web. Lea nuestra <span> política de privacidad</span> para obtener más información sobre cómo manejamos sus datos.</p>
                 
-                <div class="answer">
+      <div class="answer">
                     <label  class="answer" for="si">Sí</label>
                     <input  class="answer" type="checkbox" name="answer"  id="si" value="si">
-                </div>
-
-                <input class="submit" type="submit" value="Enviar">
-
-
-            </div>
-        </div>
-
-    
-
-    
-    </section>
-
+      </div>
+              <input class="submit" type="submit" value="Enviar">
+      </div> <br>
+    </div>
+  </section>
+  <section>
+    <div>
+      <div id="google-maps">
+        <iframe  id="google-maps" 
+            width="100%" 
+            height="300" 
+            style="border:0;"
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3214354029346!2d-58.392790784813855!3d-34.59603258046141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccba799530827%3A0xec4998d839c4efb5!2sWork%20Caf%C3%A9%20Recoleta!5e0!3m2!1ses-419!2sar!4v1670598281694!5m2!1ses-419!2sar">
+        </iframe>
+      </div>
+    </div>
+  </section>
 </main> 
 <!-- Footer -->
 <footer class="pie-pagina">

@@ -1,69 +1,44 @@
+main.cont {
+    margin: 0%;
+    padding: 5% 0% 0%;
+}
+
 .contact {
-    background-color: #032E40;
-    margin-top: 80px;
-    .izq {
-        width: 300px;
-    }
-    
-    .hero__contact {
-        display: flex;
-        margin: 0px 15%;
-    }
-    
-    .form {
-        background-color: #EDEDED;
-        border-radius: 8px;
-        margin: 0px 60px;
-    }
-    
-    .form_question {
-        display: flex;
-        flex-direction: column;
-        background-color: #CFD982;
-        border-radius: 8px;
-        text-align: center;
-        font-size: 14px;
-        padding: 10px;
-    }
+    background-image: url(https://img.freepik.com/foto-gratis/persona-vista-superior-escribiendo-computadora-portatil-espacio-copia_23-2148708035.jpg?w=1060&t=st=1670600451~exp=1670601051~hmac=fd400f314500c315cf96c4b3dfa6c0e6a4b848c20cf2013d322740aa49cd687c);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: unset;
+    opacity: 1;
+    height: auto;
+    padding-left:45%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+
+.contact .form {
+    z-index: 1000;
+    display: table-cell;
+    position: relative;
+    height: 100%;
+}
+
+.form {
+
     .form_dates {
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
-        justify-content: space-around;
-        line-height: 1.6;
-        padding: 10px 40px;
-        height: 500px;
-        
     }
-    
-    .card__description {
-        padding: 40px;
-        border-radius: 8px;
-        background-color: #EDEDED;
-        color: #032E40;
-        width: 300pxpx;
-        text-align: center;
-    }
-    
-    .iconos {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 20px 20px 0px 20px;
-    }
-    
-    .privacy {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: normal;
-    }
-    .submit {
-        background-color: #CFD982;
-        width: 100px;
-        border-radius: 8px;
-        padding: 10px;
-        margin-left: 71%;
-    }
-    
+}
 
+.privacy {
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+}
+.submit {
+    margin-top: 20px;
+    margin-left: 85%;
+    background-color: $secondary_color;
+    width: 100px;
+    border-radius: 8px;
 }

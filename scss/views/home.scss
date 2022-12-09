@@ -28,15 +28,17 @@
 }
 
 #buttonClass {
+    margin-top: 20px;
     font-size:18px;
     width:150px;
-    height:50px;
+    height:30px;
     border-width:1px;
     color:#032E40;
     border: 28px;
     border-radius: 8px;
     background:#fff;
-   
+    text-decoration: none;
+    text-align: center;
 }
   
 #buttonClass:hover {
