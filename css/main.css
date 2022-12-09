@@ -221,8 +221,19 @@ footer {
     align-items: center;
     padding: 20px; }
   footer .box_1 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 20px; }
+    padding: 20px 5px; }
+  footer .box_1 .servicios {
+    display: flex;
+    flex-direction: column; }
+  footer .redes a {
+    padding: 0px 20px;
+    justify-content: space-evenly; }
+  footer .servicios a {
+    text-decoration: none;
+    color: #EDEDED; }
   footer .box_1 .contacto {
     display: flex;
     flex-direction: column; }
@@ -495,8 +506,37 @@ footer {
     color: #032E40;
     text-align: center; }
 
+.hero_button {
+  background-color: #ffff;
+  width: 200px;
+  border-radius: 8px;
+  padding: 10px;
+  border-color: #ffff; }
+
+#buttonClass {
+  font-size: 18px;
+  width: 150px;
+  height: 50px;
+  border-width: 1px;
+  color: #032E40;
+  border: 28px;
+  border-radius: 8px;
+  background: #fff; }
+
+#buttonClass:hover {
+  background: #CFD982; }
+
+#subtiluto {
+  color: #032E40; }
+
 /* Animaciones */
 #title.animate__animated.animate__fadeIn {
+  animation-duration: 4s; }
+
+#subtiluto.animate__animated.animate__fadeIn {
+  animation-duration: 8s; }
+
+#buttonClass.animate__animated.animate__fadeIn {
   animation-duration: 4s; }
 
 .ball {

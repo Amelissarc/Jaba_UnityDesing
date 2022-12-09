@@ -21,8 +21,25 @@ footer {
     }
     
     .box_1 {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 20px 5px;
+    }
+
+    .box_1 .servicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes a {
+        padding: 0px 20px;
+        justify-content: space-evenly;
+    }
+
+    .servicios a {
+        text-decoration: none;
+        color: #EDEDED;
     }
     
     .box_1 .contacto {

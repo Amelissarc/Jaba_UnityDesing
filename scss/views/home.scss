@@ -1,7 +1,4 @@
 
-
-
-
 .hero {
     display: flex;
     flex-direction: row;
@@ -17,14 +14,49 @@
         font-family: 'Nunito', sans-serif;
         font-weight: 700;
         font-size: 60px;
-        color: #032E40;
+        color: $primary_color;
         text-align: center;
     }
 }
 
+.hero_button {
+    background-color: #ffff;
+    width: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    border-color: #ffff;
+}
+
+#buttonClass {
+    font-size:18px;
+    width:150px;
+    height:50px;
+    border-width:1px;
+    color:#032E40;
+    border: 28px;
+    border-radius: 8px;
+    background:#fff;
+   
+}
+  
+#buttonClass:hover {
+    background: #CFD982
+  }
+
+#subtiluto {
+    color: #032E40;
+ }
 /* Animaciones */
 
 #title.animate__animated.animate__fadeIn {
+    animation-duration: 4s;
+}
+
+#subtiluto.animate__animated.animate__fadeIn {
+    animation-duration: 8s;
+}
+
+#buttonClass.animate__animated.animate__fadeIn {
     animation-duration: 4s;
 }
 
