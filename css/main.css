@@ -528,11 +528,11 @@ main.cont {
   height: 30px;
   border-width: 1px;
   color: #032E40;
-  border: 28px;
   border-radius: 8px;
   background: #fff;
   text-decoration: none;
-  text-align: center; }
+  text-align: center;
+  align-items: center; }
 
 #buttonClass:hover {
   background: #CFD982; }
